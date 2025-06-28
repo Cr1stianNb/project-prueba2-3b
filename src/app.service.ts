@@ -9,6 +9,6 @@ export class AppService {
     return 'Bye World!';
   }
   getAuthor(): string {
-    return 'Creador por: Cristian Nettle';
+    return 'Creador por: Cristian Antonio Nettle Berrios';
   }
 }
