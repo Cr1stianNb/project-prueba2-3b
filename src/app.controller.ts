@@ -10,8 +10,13 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get()
+  @Get('/end')
   getEnv(): string {
     return this.appService.getEnd();
+  }
+
+  @Get('/author')
+  getAuthor(): string {
+    return this.appService.getAuthor();
   }
 }

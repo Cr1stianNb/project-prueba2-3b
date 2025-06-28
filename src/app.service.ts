@@ -8,4 +8,7 @@ export class AppService {
   getEnd(): string {
     return 'Bye World!';
   }
+  getAuthor(): string {
+    return 'Creador por: Cristian Nettle';
+  }
 }
